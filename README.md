@@ -16,7 +16,7 @@ Organization-level GitHub configuration for [LethalModding](https://github.com/L
 git clone https://github.com/LethalModding/.github.git
 ```
 
-This org-templates dossier has no HUMANS-tier runbook — edit `profile/README.md` for the landing page shown on github.com/LethalModding.
+Edit `profile/README.md` for the landing page shown on github.com/LethalModding.
 
 ## Highlights
 
@@ -29,6 +29,10 @@ This org-templates dossier has no HUMANS-tier runbook — edit `profile/README.m
 | -------- | ----------- |
 | [`profile/README.md`](profile/README.md) | Public organization profile shown on github.com/LethalModding |
 | [`LICENSE`](LICENSE) | MIT license for repository content |
+
+## Maintaining
+
+There is no build. Before committing, run `gitleaks git --redact --no-banner` and open every link in `profile/README.md`. Update the profile's Projects or Archived table in the same commit whenever a repo is created or archived. Concrete is archived and Mortar is its successor; the profile says Mortar supports Stardew Valley today with Lethal Company planned, so change that only when Mortar's catalog changes. Workflow actions are pinned to a full commit SHA.
 
 ## License
 
